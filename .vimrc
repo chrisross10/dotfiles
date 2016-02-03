@@ -25,6 +25,12 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" Pathogen
+execute pathogen#infect()
+call pathogen#helptags() " generate helptags for everything in 'runtimepath'
+syntax on
+filetype plugin indent on
+
 "indentation stuff
 set smartindent
 set tabstop=2
@@ -33,12 +39,11 @@ set softtabstop=2
 set expandtab
 
 set complete+=k "dictionary autocomplete
-
 set number "view line numbers
 highlight LineNr ctermfg=grey
-
 set listchars=tab:▸▸,trail:~ "nicer whitespace chars
 set list "show whitespace
+set mouse=nv "allow mouse
 
 "skip backup & swap files
 set nobackup
