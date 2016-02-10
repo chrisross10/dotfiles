@@ -26,8 +26,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " Pathogen
-execute pathogen#infect()
-call pathogen#helptags() " generate helptags for everything in 'runtimepath'
+" execute pathogen#infect()
+" call pathogen#helptags() " generate helptags for everything in 'runtimepath'
 syntax on
 filetype plugin indent on
 
