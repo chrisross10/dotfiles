@@ -5,7 +5,7 @@ This repository contains a configuration file `.vimrc` for my **vim** settings a
 ### vim packages
 
 * [Vundle](https://github.com/VundleVim/Vundle.vim) (vim plugin manager)
-* [Ctrl-p](https://github.com/ctrlpvim/ctrlp.vim) (full path fuzzy file finder)
+* [Ctrl-P](https://github.com/ctrlpvim/ctrlp.vim) (full path fuzzy file finder)
 * [JsHint](https://github.com/wookiehangover/jshint.vim) (spots errors and common mistakes in JavaScript code)
 * [SuperTab](https://github.com/ervandew/supertab.git) (allows you to use <Tab> for all your insert completion needs)
 * [Sytastic](https://github.com/scrooloose/syntastic.git) (syntax checking hacks for vim)
